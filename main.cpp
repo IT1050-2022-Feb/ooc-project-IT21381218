@@ -4,6 +4,7 @@
 #include "report.h"
 #include "flight.h"
 #include "ticket.h"
+#include "package.h"
 using namespace std;
 
 //Main Program
@@ -15,6 +16,7 @@ int main(){
   Hotel h1;
   Flight f1;
   Ticket t1;
+  Package pk1;
 	
 	c1.getCustomerDetails();
 	a1.getAdminDetails();
@@ -23,6 +25,7 @@ int main(){
   h1.displayHotelDetails();
   f1.displayFlightDetails();
   t1.displayTicketDetails();
+  pk1.displayPackageDetails();
 	
 	return 0;
 }
