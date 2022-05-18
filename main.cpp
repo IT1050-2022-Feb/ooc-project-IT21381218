@@ -3,6 +3,7 @@
 #include"user.h"
 #include "report.h"
 #include "flight.h"
+#include "ticket.h"
 using namespace std;
 
 //Main Program
@@ -13,6 +14,7 @@ int main(){
   Report r1;
   Hotel h1;
   Flight f1;
+  Ticket t1;
 	
 	c1.getCustomerDetails();
 	a1.getAdminDetails();
@@ -20,6 +22,7 @@ int main(){
   r1.displayReportDetails();
   h1.displayHotelDetails();
   f1.displayFlightDetails();
+  t1.displayTicketDetails();
 	
 	return 0;
 }
