@@ -5,6 +5,7 @@
 #include "flight.h"
 #include "ticket.h"
 #include "package.h"
+#include "payment.h"
 using namespace std;
 
 //Main Program
@@ -17,6 +18,8 @@ int main(){
   Flight f1;
   Ticket t1;
   Package pk1;
+  Payment pmt1;
+  
 	
 	c1.getCustomerDetails();
 	a1.getAdminDetails();
@@ -26,6 +29,7 @@ int main(){
   f1.displayFlightDetails();
   t1.displayTicketDetails();
   pk1.displayPackageDetails();
+  pmt1.displayPaymentDetails();
 	
 	return 0;
 }

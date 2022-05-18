@@ -1,6 +1,6 @@
 #include <iostream>
 #include<iomanip>
-#include<cstring>>
+#include<cstring>
 using namespace std;
 
 //Hotel class
